@@ -1,14 +1,14 @@
 @extends('layouts.master')
 @section('content')
 		<div class="row">
-			<h1 class="center-align green-text text-darken 4">@php echo $game; @endphp</h1>
+			<h1 class="center-align green-text text-darken 4">{{$game}}</h1>
 			<div class="center-align col s12">
 				<div class="row valign-wrapper">
 					<div class="col s6 ">
-					<h2>@php echo $user; @endphp</h2>
+					<h2>{{$user}}</h2>
 					</div>
 					<div class="col s6">
-						<span >SCORE: 4</span>
+						<span >@php echo 'SCORE: 4'; @endphp</span>
 					</div>
 				</div>
 				<div class="row">
