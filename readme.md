@@ -1,3 +1,27 @@
+<h1>Online Buzzer web app for quizz games</h1>
+<br>
+<p><a href="https://buzzer.seobytes.eu/login">Demo site</a></p>
+
+<p>This project was quite interesting. It's maybe the simplest online multiplier video game you can do.
+Indeed, there is a single user input and a single state to verify: did someone push the buzzer before you did within a certain time frame. So despite the apparent simplicity each buzzer has to be aware of the state of the other ones</p>
+
+<p>Features:</p>
+<ul>
+    <li>Facebook login for players</li>
+    <li>Buzzer is disabled for the other teams after the first team buzzed</li>
+    <li>User registration for game host</li>
+    <li>Game host panel with score management</li>
+    <li>The name of the fastest team to buzz is displayed on the game host panel</li>
+</ul>
+
+<p>To play, one player register as "game host" and create a game room. A game room key will be displayed that he can communicate to the person he wants to join the game. The other players register normal user (just leave "game host" unchecked) and enter the game room key. A screen will be displayed with their team name and a single round button: the buzzer.</p>
+
+<p>A few features are missing: first and foremost a short tutorial to explain what to do. Strangely enough, I have not implemented the sound for the buzzer.
+Even though my goal was to simply provide a connected buzzer app I feel like user would legitimately expect some questions to come with the app. That's something I'd like to implement. If displaying the questions wouldn't be a problem, displaying the answer for the game host is a bit more problematic as the game host panel is meant to be public. That implies that the game host uses another device to display the answer only for him on a dedicated view.</p>
+
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
